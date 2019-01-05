@@ -1,11 +1,13 @@
 import React from 'react';
 import './Navbar.css';
 
+import Logo from '../../assets/dpz-logo.svg';
+
 const Navbar = () => (
   <div className="Navbar">
     <div className="inner">
       <div style={{ flexGrow: 1 }}>
-        <img className="logo" src="https://cache.dominos.com/olo/5_50_2/assets/build/images/img/dpz-logo.svg" alt="Domino's Logo" />
+        <img className="logo" src={Logo} alt="Domino's Logo" />
       </div>
       <div style={{
         display: 'flex',
