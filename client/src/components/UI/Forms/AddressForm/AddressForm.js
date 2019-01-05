@@ -8,12 +8,14 @@ const AddressForm = props => {
   const {
     addressClear,
     addressSubmit,
+    inputChange
+  } = props;
+  const {
     street,
     city,
     state,
-    zip,
-    inputChange
-  } = props;
+    zip
+  } = props.addressInput;
 
   return (
     <form className="AddressForm">

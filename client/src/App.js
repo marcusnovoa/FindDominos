@@ -63,10 +63,7 @@ class App extends Component {
           latitude={this.state.selectedStore.storeLatitude}
           longitude={this.state.selectedStore.storeLongitude} />
         <AddressForm
-          street={this.state.addressInput.street}
-          city={this.state.addressInput.city}
-          state={this.state.addressInput.state}
-          zip={this.state.addressInput.zip}
+          addressInput={this.state.addressInput}
           inputChange={this.addressInputChangeHandler}
           addressSubmit={this.addressSubmitHandler}
           addressClear={this.addressInputClearHandler} />
