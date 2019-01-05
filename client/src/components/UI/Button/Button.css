@@ -1,0 +1,39 @@
+.btn {
+  padding: 1rem 2rem;
+  border-radius: .3rem;
+  background-color: #D31837;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: box-shadow 300ms ease;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  padding: .95rem 1.95rem;
+  font-size: .95rem;
+}
+.btn.find-store, .btn.clear-address {
+  margin: .5rem 0;
+}
+
+.btn.find-store {
+  margin-right: 1rem;
+}
+
+.btn.find-store:active {
+  margin: .55rem 1.15rem .6rem .2rem;
+}
+
+.btn.clear-address:active {
+  margin: .55rem .2rem .6rem .25rem;
+}
+
+.btn.view-store:active {
+  margin: .55rem .125rem .6rem 0 !important;
+}

@@ -1,0 +1,65 @@
+.AddressForm {
+  margin: 0 auto 2rem auto;
+  width: 90%;
+  max-width: 1200px;
+  background-color: #fff;
+  border-radius: .3rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.AddressForm .address-form-title {
+  margin-bottom: .5rem;
+  padding: 1rem;
+  color: #fff;
+  background-color: #006491;
+}
+
+.AddressForm .address-form-btns {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddressForm .form-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.AddressForm .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddressForm .form-group:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.AddressForm .form-group label {
+  margin-bottom: .5rem;
+  font-weight: bold;
+}
+
+.AddressForm .form-group .address-input {
+  border: 1px solid #DBDBDB;
+  font-size: 1rem;
+  padding: .35rem;
+}
+
+.AddressForm .form-group select.address-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+.AddressForm .form-group .address-input:focus {
+  outline: 0;
+}
+
+.AddressForm .form-group .input-required {
+  margin-left: .25rem;
+  color: #e74c3c;
+}

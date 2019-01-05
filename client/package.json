@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.6.2",
+    "axios": "^0.18.0",
+    "pizzapi": "0.0.8",
+    "react": "^16.2.0",
+    "react-awesome-modal": "^2.0.5",
+    "react-dom": "^16.2.0",
+    "react-scripts": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
