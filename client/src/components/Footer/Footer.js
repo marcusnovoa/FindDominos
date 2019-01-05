@@ -9,10 +9,12 @@ const Footer = props => {
       width: '100%',
       bottom: '0'
     } : null;
+  const date = new Date();
+  const fullYear = date.getFullYear();
 
   return (
     <div className="Footer" style={styles}>
-      <p style={{ margin: 0 }}>&copy; 2019 Developed by Marcus Novoa</p>
+      <p style={{ margin: 0 }}>&copy; {fullYear} FindDominos developed by Marcus Novoa</p>
     </div>
   );
 }

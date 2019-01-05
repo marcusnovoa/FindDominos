@@ -1,7 +1,7 @@
 {
   "name": "find-dominos",
   "version": "1.0.0",
-  "description": "A Domino's store locator application using the Domino's API",
+  "description": "A Domino's store locator application using the Domino's API & PizzaPi",
   "main": "server.js",
   "scripts": {
     "client-install": "cd client && npm install",
@@ -15,7 +15,7 @@
     "email": "mnovcodes@gmail.com",
     "url": "http://marcuscodes.com/"
   },
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "devDependencies": {
     "nodemon": "^1.14.6"
   },
