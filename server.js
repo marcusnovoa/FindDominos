@@ -9,7 +9,7 @@ app.use(cors());
 
 let addressInput = {};
 
-var corsOptions = {
+const corsOptions = {
   origin: 'https://order.dominos.com',
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
