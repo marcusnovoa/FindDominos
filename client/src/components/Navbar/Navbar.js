@@ -18,7 +18,7 @@ const Navbar = () => (
         color: '#fff',
         flexGrow: 2
       }}>
-        <h1 style={{ margin: 0, display: 'flex' }}>Find Your Nearest Domino's<span className="nav-reg">&reg;</span></h1>
+        <h1 style={{ margin: 0, display: 'flex' }}>Find Your Nearest Domino&#8217;s<span className="nav-reg">&reg;</span></h1>
       </div>
       <div style={{ flexGrow: 1 }}></div>
     </div>
